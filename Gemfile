@@ -25,3 +25,6 @@ gem 'yard', '~> 0.9.28'
 
 # One-liners to test common Rails functionality
 gem 'shoulda-matchers', '~> 5.0'
+
+# Pry is a runtime developer console and IRB
+gem 'pry', '~> 0.14.1'

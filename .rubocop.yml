@@ -11,3 +11,8 @@ RSpec/FactoryBot/CreateList:
 Lint/ShadowingOuterLocalVariable:
   Exclude:
     - 'spec/spec_helper.rb'
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - spec/**/*
