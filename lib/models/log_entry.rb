@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'active_model'
+
 class LogEntry
   include ActiveModel::Model
   include ActiveModel::Serialization

@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-require 'models/log_entry'
-require 'exceptions/empty_file'
-require 'exceptions/file_not_found'
-require 'exceptions/file_type_error'
-
 #
 # Service responsible for parsing log
 #
