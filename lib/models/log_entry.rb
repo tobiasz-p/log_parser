@@ -2,6 +2,7 @@
 
 class LogEntry
   include ActiveModel::Model
+  include ActiveModel::Serialization
 
   attr_accessor :line_number, :path, :ip
 
