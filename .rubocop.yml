@@ -4,3 +4,10 @@ require:
 AllCops:
   NewCops: enable
   TargetRubyVersion: 3.0.3
+
+RSpec/FactoryBot/CreateList:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Exclude:
+    - 'spec/spec_helper.rb'

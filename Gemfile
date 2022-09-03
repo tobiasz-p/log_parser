@@ -22,3 +22,6 @@ gem 'overcommit', '~> 0.59.1'
 
 # Documentation generation tool
 gem 'yard', '~> 0.9.28'
+
+# One-liners to test common Rails functionality
+gem 'shoulda-matchers', '~> 5.0'
